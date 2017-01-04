@@ -5,7 +5,7 @@ public class Solution {
     
     public int solution1(int[] nums){
         java.util.Arrays.sort(nums);
-        List<Integer> list = new ArrayList<Integer>();
+        List<Integer> list = new ArrayList<Integer>();//how about LinkedList
         int length=nums.length;
         for(int i=length-1;(i>=0)&&(list.size()<3); i--){
             if(!list.contains(nums[i])){
